@@ -1,0 +1,18 @@
+Button{
+    -fx-padding : 8 20;
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-background-color: "Helvetica";
+    -fx-background-radius: 5px;
+    -fx-border-color:black;
+    -fx-border-radius: 5px;
+
+}
+Button:hover{
+    -fx-background-color: cyan;
+
+}
+Button:pressed{
+    -fx-border-color: white;
+    -fx-border-radius: 3px;
+}
